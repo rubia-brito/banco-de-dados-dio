@@ -23,7 +23,7 @@ SELECT Nome, Ano
 FROM Filmes;
 
 📷 Resultado:
-"Exercício 1" (prints/printsex1.png)
+"[Exercício 1](https://raw.githubusercontent.com/rubia-brito/banco-de-dados-dio/main/prints/printsex1.png)
 
 ---
 
