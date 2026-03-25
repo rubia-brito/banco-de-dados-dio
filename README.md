@@ -1,6 +1,6 @@
-📚 Exercícios SQL - DIO
+📚 Exercícios "SQL" - DIO
 
-Este repositório contém exercícios práticos de SQL realizados durante o curso da DIO.
+Este repositório contém exercícios práticos de "SQL" realizados durante o curso da DIO.
 
 ---
 
@@ -137,4 +137,4 @@ INNER JOIN Atores a ON ef.IdAtor = a.Id;
 
 🎯 Objetivo
 
-Praticar consultas SQL e compreender o relacionamento entre múltiplas tabelas.
+Praticar consultas "SQL" e compreender o relacionamento entre múltiplas tabelas.
