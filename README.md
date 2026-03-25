@@ -23,7 +23,7 @@ SELECT Nome, Ano
 FROM Filmes;
 
 📷 Resultado:
-"Exercício 1" (prints/printsex1.png)
+"Exercício 1" (https://raw.githubusercontent.com/rubia-brito/banco-de-dados-dio/main/prints/printsex1.pn)
 
 ---
 
@@ -34,7 +34,7 @@ FROM Filmes
 ORDER BY Ano;
 
 📷 Resultado:
-"Exercício 2" (prints/printsex2.png)
+"Exercício 2" (https://raw.githubusercontent.com/rubia-brito/banco-de-dados-dio/main/prints/printsex2.png)
 
 ---
 
@@ -45,7 +45,8 @@ FROM Filmes
 WHERE Nome = 'De Volta Para o Futuro';
 
 📷 Resultado:
-"Exercício 3" (prints/printsex3.png)
+"Exercício 3" (https://raw.githubusercontent.com/rubia-brito/banco-de-dados-dio/main/prints/printsex3.png)
+
 
 ---
 
@@ -56,7 +57,7 @@ FROM Filmes
 WHERE Ano = 1997;
 
 📷 Resultado:
-"Exercício 4" (prints/printsex4.png)
+"Exercício 4" (https://raw.githubusercontent.com/rubia-brito/banco-de-dados-dio/main/prints/printsex4.png)
 
 ---
 
@@ -67,7 +68,7 @@ FROM Filmes
 WHERE Ano > 2000;
 
 📷 Resultado:
-"Exercício 5" (prints/printsex5.png)
+"Exercício 5" (https://raw.githubusercontent.com/rubia-brito/banco-de-dados-dio/main/prints/printsex5.png)
 
 ---
 
@@ -79,7 +80,7 @@ WHERE Duracao > 100 AND Duracao < 150
 ORDER BY Duracao;
 
 📷 Resultado:
-"Exercício 6" (prints/printsex6.png)
+"Exercício 6" (https://raw.githubusercontent.com/rubia-brito/banco-de-dados-dio/main/prints/printsex6.png)
 
 ---
 
@@ -91,7 +92,7 @@ GROUP BY Ano
 ORDER BY Quantidade DESC;
 
 📷 Resultado:
-"Exercício 7" (prints/printsex7.png)
+"Exercício 7" (https://raw.githubusercontent.com/rubia-brito/banco-de-dados-dio/main/prints/printsex7.png)
 
 ---
 
@@ -102,7 +103,7 @@ FROM Atores
 WHERE Genero = 'M';
 
 📷 Resultado:
-"Exercício 8" (prints/printsex8.png)
+"Exercício 8" (https://raw.githubusercontent.com/rubia-brito/banco-de-dados-dio/main/prints/printsex8.png)
 
 ---
 
@@ -114,7 +115,7 @@ WHERE Genero = 'F'
 ORDER BY PrimeiroNome;
 
 📷 Resultado:
-"Exercício 9" (prints/printsex9.png)
+"Exercício 9" (https://raw.githubusercontent.com/rubia-brito/banco-de-dados-dio/main/prints/printsex9.png)
 
 ---
 
@@ -126,7 +127,7 @@ INNER JOIN FilmesGenero fg ON f.Id = fg.IdFilme
 INNER JOIN Generos g ON fg.IdGenero = g.Id;
 
 📷 Resultado:
-"Exercício 10" (prints/printsex10.png)
+"Exercício 10" (https://raw.githubusercontent.com/rubia-brito/banco-de-dados-dio/main/prints/printsex10.png)
 
 ---
 
@@ -139,7 +140,7 @@ INNER JOIN Generos g ON fg.IdGenero = g.Id
 WHERE g.Genero = 'Mistério';
 
 📷 Resultado:
-"Exercício 11" (prints/printsex11.png)
+"Exercício 11" (https://raw.githubusercontent.com/rubia-brito/banco-de-dados-dio/main/prints/printsex11.png)
 
 ---
 
@@ -154,7 +155,7 @@ INNER JOIN ElencoFilme ef ON f.Id = ef.IdFilme
 INNER JOIN Atores a ON ef.IdAtor = a.Id;
 
 📷 Resultado:
-"Exercício 12" (prints/printsex12.png)
+"Exercício 12" (https://raw.githubusercontent.com/rubia-brito/banco-de-dados-dio/main/prints/printsex12.png)
 
 ---
 
