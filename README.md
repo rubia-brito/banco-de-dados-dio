@@ -23,7 +23,7 @@ SELECT Nome, Ano
 FROM Filmes;
 
 📷 Resultado:
-"Exercício 1" (prints/ex1.png)
+"Exercício 1" (prints/printsex1.png)
 
 ---
 
@@ -34,7 +34,7 @@ FROM Filmes
 ORDER BY Ano;
 
 📷 Resultado:
-"Exercício 2" (prints/ex2.png)
+"Exercício 2" (prints/printsex2.png)
 
 ---
 
@@ -45,7 +45,7 @@ FROM Filmes
 WHERE Nome = 'De Volta Para o Futuro';
 
 📷 Resultado:
-"Exercício 3" (prints/ex3.png)
+"Exercício 3" (prints/printsex3.png)
 
 ---
 
@@ -56,7 +56,7 @@ FROM Filmes
 WHERE Ano = 1997;
 
 📷 Resultado:
-"Exercício 4" (prints/ex4.png)
+"Exercício 4" (prints/printsex4.png)
 
 ---
 
@@ -67,7 +67,7 @@ FROM Filmes
 WHERE Ano > 2000;
 
 📷 Resultado:
-"Exercício 5" (prints/ex5.png)
+"Exercício 5" (prints/printsex5.png)
 
 ---
 
@@ -79,7 +79,7 @@ WHERE Duracao > 100 AND Duracao < 150
 ORDER BY Duracao;
 
 📷 Resultado:
-"Exercício 6" (prints/ex6.png)
+"Exercício 6" (prints/printsex6.png)
 
 ---
 
@@ -91,7 +91,7 @@ GROUP BY Ano
 ORDER BY Quantidade DESC;
 
 📷 Resultado:
-"Exercício 7" (prints/ex7.png)
+"Exercício 7" (prints/printsex7.png)
 
 ---
 
@@ -102,7 +102,7 @@ FROM Atores
 WHERE Genero = 'M';
 
 📷 Resultado:
-"Exercício 8" (prints/ex8.png)
+"Exercício 8" (prints/printsex8.png)
 
 ---
 
@@ -114,7 +114,7 @@ WHERE Genero = 'F'
 ORDER BY PrimeiroNome;
 
 📷 Resultado:
-"Exercício 9" (prints/ex9.png)
+"Exercício 9" (prints/printsex9.png)
 
 ---
 
@@ -126,7 +126,7 @@ INNER JOIN FilmesGenero fg ON f.Id = fg.IdFilme
 INNER JOIN Generos g ON fg.IdGenero = g.Id;
 
 📷 Resultado:
-"Exercício 10" (prints/ex10.png)
+"Exercício 10" (prints/printsex10.png)
 
 ---
 
@@ -139,7 +139,7 @@ INNER JOIN Generos g ON fg.IdGenero = g.Id
 WHERE g.Genero = 'Mistério';
 
 📷 Resultado:
-"Exercício 11" (prints/ex11.png)
+"Exercício 11" (prints/printsex11.png)
 
 ---
 
@@ -154,7 +154,7 @@ INNER JOIN ElencoFilme ef ON f.Id = ef.IdFilme
 INNER JOIN Atores a ON ef.IdAtor = a.Id;
 
 📷 Resultado:
-"Exercício 12" (prints/ex12.png)
+"Exercício 12" (prints/printsex12.png)
 
 ---
 
